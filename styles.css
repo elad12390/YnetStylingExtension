@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+* {
+    font-family: "Heebo", sans-serif !important;
+}
+.text_editor_paragraph {
+    width: 70vw !important;
+}
+.text_editor_paragraph span{
+    font-size: 25px !important;
+}
+
+.site_page_root {
+    width: 100% !important;
+    margin: 0 !important;
+}
+*:not(.TickerComponenta) {
+    position: unset !important;
+}
+#ads {
+	display: none;
+}
+/* * {
+    left: 0 !important;
+} */
+.hContainer {
+    width: 100% !important;
+}
+.layoutItem.Article-Image-Title, .layoutItem.Article-Image-Title img {
+	height: 12vw !important;
+}
+figure .VideoComponenta, figure div.ArticleImageComponenta, figure div.iframeWidth  {
+    position: absolute !important;
+    left: 10rem;
+}
+.layoutContainer {
+    width: 85% !important;
+}
+
+.layoutItem.taboola-general {
+	display: none;
+}
+
+.banner, .extended-banner, .taboola-general, ul>li>button {
+    display: none;
+}
+
+span > div > div.GeneralImageComponenta {
+    display: none;
+}
+div.layoutItem.multi-article:not(.extended-banner):not(.ticker-auto) {
+    left: 0 !important;
+}
+div.layoutItem:not(.extended-banner):not(.ticker-auto) {
+    width: 100% !important;
+}
+div[class^="article"] {
+    width: 100% !important;
+}
+.dynamicHeightItemsColumn {
+    left: 0 !important;
+    width: 100% !important;
+}
+
+#ArticleHeaderComponent {
+    width: 100% !important;
+}
+
+#ArticleBodyComponent {
+    width: 100% !important;
+}
+div.ticker-auto {
+    width: 150px !important;
+    position: absolute !important;
+    overflow: hidden !important;
+    top: 14vh !important;
+    left: 92vw !important;
+}
+
+span {
+    font-size: large;
+}
+
+figure>div{
+    width: 10vw!important;
+    margin: 0 auto !important;
+}
+figure>div:hover {
+    width: 50vw !important;
+    margin: 0 auto !important;
+}
